@@ -1,0 +1,25 @@
+[project]
+name = "bayesian-ml-introduction"
+version = "0.1.0"
+description = "Sample code for blog post Bayesian Machine Learning: A Deep but Friendly Introduction"
+authors = [
+    { name = "salemileandro", email = "salemileandro@gmail.com" }
+]
+dependencies = [
+    "numpyro==0.16.1",
+    "numpy==2.2.2",
+    "jax==0.5.0",
+    "jaxlib==0.5.0",
+    "matplotlib==3.10.0",
+    "scikit-learn==1.6.1",
+    "jupyter>=1.1.1",
+    "notebook>=7.3.2",
+    "ipython>=8.31.0",  
+]
+readme = "README.md"
+requires-python = "== 3.12"
+
+[tool.rye]
+virtual = true
+managed = true
+dev-dependencies = []
